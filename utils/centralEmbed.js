@@ -29,6 +29,7 @@ class CentralEmbedHandler {
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
+                    '- Developed By Ahsan',
                     '- In free version I only support **YouTube** only.',
                     '',
                     '✨ *Ready to fill this place with amazing music?*'
@@ -69,7 +70,7 @@ class CentralEmbedHandler {
                 )
                 .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
                 .setFooter({ 
-                    text: 'Ultimate Music Bot • Developed By GlaceYT!',
+                    text: 'Ultimate Music Bot • Developed By Ahsan!',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -354,3 +355,4 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
